@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    char Name[] = "PAVITHRA";
+    int x=0;
+    while (Name[x]!='\0') {
+        x++;
+    }
+        printf("%d\n", x);
+}

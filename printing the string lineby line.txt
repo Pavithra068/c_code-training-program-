@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char Name[] = "PAVITHRA";
+    int X=strlen(Name);
+    for (int i=0; i <X; i++) {
+        printf("%c\n", Name[i]);
+    }
+
+    return 0;
+}

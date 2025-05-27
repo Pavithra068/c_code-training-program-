@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include<string.h>
+
+int main() {
+    char Name[] = "pavithragopal";
+    char Name1[]="pavithragopal";
+    int x=strlen(Name);
+    int y=strlen(Name1);
+    if(x!=y){
+        printf("NOT EQUAL");
+        return 0;
+    }
+    for (int i=0;i<x;i++) {
+        if(Name[i]!=Name1[i]){
+            printf("NOT EQUAL");
+            return 0;
+         
+        }
+    }    printf("EQUAL");   
+
+}

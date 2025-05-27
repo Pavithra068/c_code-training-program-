@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    char Name[] = "aeiou";
+    int vowel=0,con=0;
+    for (int i=1;Name[i]!='\0';i++) {
+        if((Name[i]=='a')||(Name[i]=='e')||(Name[i]=='i')||(Name[i]=='o')||(Name[i]=='u')){
+            vowel++;
+        }
+        else con++;
+    }    
+     printf("%d\n%d", vowel,con);
+
+}
+
+
