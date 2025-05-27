@@ -1,0 +1,8 @@
+
+int main()
+{ char c[]="KRISHNA";
+for (int i=0;i<strlen(c);i++){
+printf("%c",c[i]+32);
+}
+return 0;
+}

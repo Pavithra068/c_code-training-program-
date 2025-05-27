@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdbool.h>
+
+
+bool paa(char str[]){
+    if(strle(str)<8)
+    return false;
+    int upper=0,lower=0,num=0,spl=0;
+    for(int i=0;i<strlen(str);i++){
+        if(char[i]==" ") return false;
+        else if(upper case) upper++;
+        else if(lower case) lower++;
+        else if(number) num++;
+        else spl++;
+    }
+}

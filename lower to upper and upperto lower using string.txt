@@ -1,0 +1,13 @@
+//LOW TO UP
+int main()
+{ char c='K';
+printf("%c",c-32);
+return 0;
+}
+//LOW TO UP
+
+int main()
+{ char c='K';
+printf("%c",c+32);
+return 0;
+}

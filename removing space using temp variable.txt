@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+void removeSpaces(const char *original, char *modified) {
+    int j = 0;
+    for (int i = 0; original[i] != '\0'; i++) {
+        if (original[i] != ' ') {
+            modified[j++] = original[i];
+        }
+    }
+    modified[j] = '\0';
+}
+
+int main() {
+    const char original[] = "This is a sample string with spaces.";
+    char modified[sizeof(original)];
+
+    printf("Original string: '%s'\n", original);
+    removeSpaces(original, modified);
+    printf("String after removing spaces: '%s'\n", modified);
+    
+    return 0;
+}
+
